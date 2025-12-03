@@ -1,0 +1,272 @@
+  const pages = {
+    home: `
+      <section class="card">
+        <h1>Welcome — SDG 15: Life on Land</h1>
+        <p class="muted">The UN Sustainable Development Goal 15 aims to protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, halt and reverse land degradation, and halt biodiversity loss.</p>
+        <div style="display:flex;gap:16px;flex-wrap:wrap;margin-top:14px">
+          <div style="flex:1;min-width:220px">
+            <h3>Why land matters</h3>
+            <p>Land provides food, water filtration, carbon storage, habitats for biodiversity and livelihoods for billions. Degraded land reduces productivity, reduces resilience to climate change and increases vulnerability for rural communities.</p>
+          </div>
+          <div style="width:320px">
+            <div class="callout">
+              <strong>SDG 15 targets (selected)</strong>
+              <ul style="margin-top:8px">
+                <li>15.1 — Ensure conservation, restoration and sustainable use of terrestrial ecosystems.</li>
+                <li>15.3 — Combat desertification, restore degraded land and soil.</li>
+                <li>15.5 — Protect biodiversity and prevent species extinction.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    `,
+
+    overview: `
+      <section class="card">
+        <h1>Overview of SDG 15</h1>
+        <p>SDG 15, "Life on Land", is a broad goal that covers forests, biodiversity, desertification, land management, and more. A core component is preventing and reversing land degradation — the process that reduces the productive capacity of land.</p>
+
+        <h2>Key indicators related to land degradation</h2>
+        <p class="muted">Policy makers and scientists track indicators such as:</p>
+        <ul>
+          <li>Proportion of land that is degraded over total land area.</li>
+          <li>Forest area as a percentage of total land area.</li>
+          <li>Trends in soil organic carbon and erosion rates.</li>
+          <li>Biodiversity measures (species abundance, extinction risk).</li>
+        </ul>
+
+        <h2>Terminology</h2>
+        <p><strong>Land degradation:</strong> decline in land quality caused by human activities and environmental factors, resulting in reduced productivity and ecosystem services.</p>
+        <p><strong>Desertification:</strong> land degradation in arid, semiarid and dry sub-humid areas, often linked to climate variability and human pressures.</p>
+
+        <h2>Scale and urgency</h2>
+        <p>Globally, an estimated large area of land is degraded to some degree (estimates vary by methodology). Restoration and sustainable land management are cost-effective investments — improving food security, increasing carbon sequestration, and rebuilding resilience to droughts and floods.</p>
+      </section>
+    `,
+
+    causes: `
+      <section class="card">
+        <h1>Drivers & Causes of Land Degradation</h1>
+        <p>Land degradation is typically caused by a combination of natural processes and human activities. Key causes include:</p>
+
+        <h3>Agricultural practices</h3>
+        <p>Intensive tillage, monocultures, overuse of chemical fertilisers and pesticides, removal of crop residues, and lack of crop rotation lead to soil structure loss, nutrient depletion, salinization and erosion.</p>
+
+        <h3>Deforestation and land-use change</h3>
+        <p>Clearing forests for agriculture, mining, or urban expansion destroys root systems and soil cover, increasing erosion and reducing water retention.</p>
+
+        <h3>Overgrazing</h3>
+        <p>When livestock densities exceed carrying capacity, vegetation cover is lost and soils become compacted and vulnerable.</p>
+
+        <h3>Urbanisation and infrastructure</h3>
+        <p>Sprawl, road building and land sealing reduce available productive land and change hydrology, increasing runoff and flood risk.</p>
+
+        <h3>Unsustainable water management & irrigation</h3>
+        <p>Poor irrigation can cause salinization and waterlogging; extraction of groundwater lowers water tables and affects ecosystems.</p>
+
+        <h3>Climate change</h3>
+        <p>Changes in precipitation patterns, prolonged droughts, and extreme weather events exacerbate degradation processes, especially in marginal lands.</p>
+
+        <div class="callout">
+          <strong>Interacting drivers</strong>
+          <p class="muted">Often multiple drivers act together: e.g., deforestation increases vulnerability to drought, while overgrazing prevents recovery after extreme events.</p>
+        </div>
+      </section>
+    `,
+
+    impacts: `
+      <section class="card">
+        <h1>Impacts of Land Degradation</h1>
+        <p>Land degradation has cascading effects across environmental, social, and economic systems.</p>
+
+        <h3>Food security & livelihoods</h3>
+        <p>Reduced land productivity lowers crop yields and pasture quality, directly affecting farmers and pastoralists and increasing risks of poverty and migration.</p>
+
+        <h3>Biodiversity loss</h3>
+        <p>Habitat destruction and fragmentation eliminate niches and increase extinction risks for plants and animals.</p>
+
+        <h3>Water cycle & climate</h3>
+        <p>Degraded soils store less water and sequester less carbon, weakening climate resilience and increasing greenhouse gas concentrations.</p>
+
+        <h3>Social stability</h3>
+        <p>Resource scarcity can drive conflict, displacement and exacerbate inequalities — especially where land rights are insecure.</p>
+
+        <h3>Economic costs</h3>
+        <p>Restoration and lost productivity impose large economic costs. Conversely, investments in restoration yield high returns in ecosystem services.</p>
+
+        <h3>Human health</h3>
+        <p>Dust, reduced water quality, and decreased food availability have direct and indirect negative implications for health.</p>
+      </section>
+    `,
+
+    solutions: `
+      <section class="card">
+        <h1>Solutions & Best Practices</h1>
+        <p>Addressing land degradation requires integrated approaches at local, national and global scales. Key solution areas include:</p>
+
+        <h3>Sustainable land management (SLM)</h3>
+        <p>Practices such as conservation agriculture, agroforestry, cover cropping, reduced tillage, integrated pest management and landscape approaches help maintain soil health and productivity.</p>
+
+        <h3>Restoration & rewilding</h3>
+        <p>Active restoration (reforestation, assisted natural regeneration) and passive recovery in degraded areas rebuilds biomass, restores soil function and reconnects habitats.</p>
+
+        <h3>Water-smart approaches</h3>
+        <p>Rainwater harvesting, efficient irrigation (drip, micro-sprinklers), and watershed management reduce stress on water resources and prevent salinization.</p>
+
+        <h3>Secure land tenure & inclusive governance</h3>
+        <p>Clear land rights and community-led management incentivize sustainable investment in land, especially for indigenous peoples and smallholders.</p>
+
+        <h3>Economic instruments</h3>
+        <p>Payments for ecosystem services, carbon markets, sustainable supply chains and subsidies for good practices can shift incentives toward restoration and sustainable use.</p>
+
+        <h3>Science, monitoring & technology</h3>
+        <p>Remote sensing, soil monitoring, participatory mapping and early-warning systems allow targeted interventions and track progress toward SDG targets.</p>
+
+        <h3>Cross-sector partnerships</h3>
+        <p>Coordination between agriculture, environment, water and finance sectors amplifies impact. Private sector commitments (deforestation-free supply chains) can reduce drivers of degradation.</p>
+
+        <div style="margin-top:12px">
+          <h3>Practical farmer-level checklist</h3>
+          <ul>
+            <li>Keep soil covered with residues or cover crops.</li>
+            <li>Use crop rotations and integrate legumes to rebuild soil N.</li>
+            <li>Reduce tillage where feasible.</li>
+            <li>Integrate trees and hedgerows (agroforestry).</li>
+            <li>Adopt targeted, efficient irrigation.</li>
+            <li>Document and protect local seed and crop diversity.</li>
+          </ul>
+        </div>
+      </section>
+    `,
+
+    policy: `
+      <section class="card">
+        <h1>Policy, Targets & Global Efforts</h1>
+        <p>Global frameworks and national policies are crucial to scale up action:</p>
+
+        <h3>UN frameworks</h3>
+        <p>SDG 15 sits within the 2030 Agenda; other related frameworks include the UN Convention to Combat Desertification (UNCCD), the Convention on Biological Diversity (CBD) and the UN Framework Convention on Climate Change (UNFCCC).</p>
+
+        <h3>National strategies</h3>
+        <p>Countries adopt national action plans, restoration targets (e.g., Bonn Challenge) and integrate land management into NDCs (Nationally Determined Contributions) under the Paris Agreement.</p>
+
+        <h3>Finance and investments</h3>
+        <p>Mobilising finance — public, private, blended — is essential. Examples: green bonds, restoration funds, climate finance for land-based mitigation and adaptation.</p>
+
+        <h3>Monitoring progress</h3>
+        <p>Robust monitoring (combining remote sensing and ground-truthing) and transparent reporting are essential to evaluate interventions and meet SDG targets.</p>
+
+      </section>
+    `,
+
+    cases: `
+      <section class="card">
+        <h1>Case Studies</h1>
+        <p>Real-world examples showing both challenges and successful responses.</p>
+
+        <h3>1. The Sahel (West Africa) — Regreening</h3>
+        <p>Community-driven initiatives such as Farmer Managed Natural Regeneration (FMNR) have restored tree cover across degraded landscapes, improved soil fertility and crop yields, and increased resilience to drought.</p>
+
+        <h3>2. China — Loess Plateau Restoration</h3>
+        <p>Large-scale restoration of the Loess Plateau combined terracing, reforestation and sustainable livelihoods programs, turning severely eroded land into productive landscapes and reducing sediment in rivers.</p>
+
+        <h3>3. Costa Rica — forest recovery through policy</h3>
+        <p>Payments for ecosystem services and strong forest protection policies contributed to notable forest recovery and biodiversity benefits.</p>
+
+        <h3>Lessons learned</h3>
+        <ul>
+          <li>Locally led approaches that build on traditional knowledge are often more durable.</li>
+          <li>Combining ecological restoration with livelihood support prevents perverse outcomes.</li>
+          <li>Long-term monitoring and adaptive management are essential.</li>
+        </ul>
+      </section>
+    `,
+
+    getinvolved: `
+      <section class="card">
+        <h1>Get Involved — Actions you can take</h1>
+        <p>Everyone can contribute, from individuals to governments and businesses.</p>
+
+        <h3>For individuals</h3>
+        <ul>
+          <li>Support sustainably produced goods (look for certifications and traceability).</li>
+          <li>Plant native trees and restore local green spaces.</li>
+          <li>Reduce food waste and choose diverse diets to lower pressure on land.</li>
+          <li>Volunteer with or donate to local and international restoration groups.</li>
+        </ul>
+
+        <h3>For practitioners & local leaders</h3>
+        <ul>
+          <li>Adopt and promote sustainable land management practices.</li>
+          <li>Secure community land rights and involve women and indigenous groups in planning.</li>
+          <li>Measure and report on land condition and adapt interventions.</li>
+        </ul>
+
+        <h3>For policymakers & funders</h3>
+        <ul>
+          <li>Integrate land restoration targets into national development plans and NDCs.</li>
+          <li>Invest in extension services and community-based programs.</li>
+          <li>Use economic instruments to reward sustainable management.</li>
+        </ul>
+
+        <div class="callout">
+          <strong>Small actions scale</strong>
+          <p class="muted">Even small local projects, when connected across a landscape, can create large ecological and social benefits.</p>
+        </div>
+      </section>
+    `
+  };
+
+  // --- Router & rendering ---
+  function render(page){
+    const app = document.getElementById('app');
+    if(!pages[page]) page = 'home';
+    app.innerHTML = pages[page];
+
+    // update nav states
+    document.querySelectorAll('#navlist button').forEach(btn => {
+      btn.removeAttribute('aria-current');
+      if(btn.getAttribute('data-link') === page) btn.setAttribute('aria-current','true');
+    });
+
+    // update anchors in footer quicklinks
+    document.querySelectorAll('a[data-internal]').forEach(a => {
+      const target = a.getAttribute('href').slice(1);
+      a.onclick = (e)=>{ e.preventDefault(); navigate(target); };
+    });
+
+    // set document title for accessibility and bookmarking
+    document.title = 'SDG 15 — ' + (page.charAt(0).toUpperCase() + page.slice(1));
+    window.scrollTo({top:0,behavior:'smooth'});
+  }
+
+  function navigate(page){
+    history.pushState({page}, '', '#' + page);
+    render(page);
+  }
+
+  // initial setup: add click handlers
+  document.querySelectorAll('#navlist button').forEach(btn => {
+    btn.addEventListener('click', ()=>{
+      const link = btn.getAttribute('data-link');
+      navigate(link);
+    });
+  });
+
+  // handle back/forward
+  window.onpopstate = function(e){
+    const p = (e.state && e.state.page) || location.hash.slice(1) || 'home';
+    render(p);
+  }
+
+  // initial render based on hash
+  const initial = location.hash.slice(1) || 'home';
+  render(initial);
+
+  // Accessibility: keyboard shortcuts
+  document.addEventListener('keydown', (e)=>{
+    if((e.ctrlKey || e.metaKey) && e.key.toLowerCase()==='1') navigate('home');
+    if((e.ctrlKey || e.metaKey) && e.key.toLowerCase()==='2') navigate('overview');
+  });
+
